@@ -1,17 +1,44 @@
 <!DOCTYPE HTML>
 <html>
-	<head>
-    <title>My Simple PWA</title>
-    <link rel="manifest" href="/manifest.webmanifest">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-    <script>
-      if('serviceWorker' in navigator) {
-        navigator.serviceWorker.register('/sw.js');
-      };
-    </script>
-    <meta name="theme-color" content="#FFF200">
-	</head>
-	<body>
-		<h1>Salim BENFARHAT</h1>
-	</body>
+<head>
+  <title>My Simple PWA</title>
+  <link rel="manifest" href="/manifest.webmanifest">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+  <script>
+    if ('serviceWorker' in navigator) {
+      navigator.serviceWorker.register('/sw.js');
+    };
+  </script>
+
+  <!-- Use Roboto from Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+  
+  <!-- Fontawesome icons -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+  
+  <link rel="stylesheet" href="css/style.css">
+  <meta name="theme-color" content="#FFF200">
+</head>
+
+<body>
+  <header>
+    <h1>Salim BENFARHAT</h1>
+  </header>
+  <main>
+    <div class="coming-soon">
+      <h1>Hello world <span id="cursor" class="blink">_</span></h1>
+      <p>Comin soon</p>
+    </div>
+  </main>
+  <footer>
+    <div class="social-links">
+      <a href="https://web.facebook.com/iamsalimbenfarhat" target="_blank">
+        <i class="fab fa-facebook-square"></i>
+      </a>
+    </div>
+    <div class="copyright">
+      &copy; 2019 Salim Benferhat
+    </div>
+  </footer>
+</body>
 </html>
