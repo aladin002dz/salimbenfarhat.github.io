@@ -1,0 +1,14 @@
+{
+  "name": "My Simple PWA",
+  "short_name": "PWA SB",
+  "start_url": "/index.html",
+  "display": "standalone",
+  "theme_color": "red",
+  "background_color":"blue",
+  "icons": [
+    {
+      "src": "/icon_user.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }]
+}
